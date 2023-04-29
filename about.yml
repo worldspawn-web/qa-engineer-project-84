@@ -1,0 +1,49 @@
+---
+name: Michael Lozitckii
+job: Frontend-Developer
+level: junior
+email: worldspawn-web@gmail.com
+description: |
+  Работая по 8 часов каждый день, рано или поздно ты станешь боссом и будешь работать по 11 часов каждый день.
+  ...
+  Это ли не прекрасно?
+skills:
+  frontend:
+    - HTML
+    - CSS
+    - Emmet
+    - JavaScript
+    - jQuery
+    - Node.js
+    - Express.js
+    - Git
+    frameworks:
+      - Lodash
+      - CRC-32
+      - Readline-sync
+      - power-assert
+      - Node.js
+  testing:
+    - DevTools
+    - Jira
+    - YouTrack
+    - BugZilla
+    - TestIT
+    - Xmind
+    - Confluence
+    - YouGile
+  other:
+    - Valve Hammer Editor (& Hammer++)
+    - VTFEdit
+    - BSPSrc
+    - VIDE
+    - BSPZip
+    - GCFScape
+    - Blender
+    - Figma
+    - Photoshop
+    - Premiere Pro
+    - Audacity
+    - FL Studio
+    - SAI
+    - Wavosaur
