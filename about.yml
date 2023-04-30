@@ -8,7 +8,6 @@ description: |
   ...
   Это ли не прекрасно?
 skills:
-  frontend:
     - HTML
     - CSS
     - Emmet
@@ -22,7 +21,6 @@ skills:
     - Readline-sync
     - power-assert
     - Node.js
-  testing:
     - DevTools
     - Jira
     - YouTrack
@@ -31,7 +29,6 @@ skills:
     - Xmind
     - Confluence
     - YouGile
-  other:
     - Valve Hammer Editor (& Hammer++)
     - VTFEdit
     - BSPSrc
