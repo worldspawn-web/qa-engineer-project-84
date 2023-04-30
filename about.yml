@@ -17,12 +17,11 @@ skills:
     - Node.js
     - Express.js
     - Git
-    frameworks:
-      - Lodash
-      - CRC-32
-      - Readline-sync
-      - power-assert
-      - Node.js
+    - Lodash
+    - CRC-32
+    - Readline-sync
+    - power-assert
+    - Node.js
   testing:
     - DevTools
     - Jira
