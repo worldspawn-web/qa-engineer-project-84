@@ -1,0 +1,56 @@
+---
+- summary: |
+    При смене языка на сайте, не изменяется валюта у товаров.
+  environment: |
+    FireFox Development Edition 113.0b8 (64bit)
+    OC Windows 10.0.19045 (x64)
+  steps-to-reproduce: |
+    1. Зайти на главную страницу сайта.
+    2. Нажать на "Language" в шапке сайта.
+    3. Выбрать "Russian".
+  expected-result: |
+    Валюта в магазине изменилась на рубли.
+  actual-result: |
+    Валюта не изменилась (assets/price-convertation-bug.png).
+---
+- summary: |
+    При переходе на 3 страницу, перестают подгружаться preview товаров.
+  environment: |
+    FireFox Development Edition 113.0b8 (64bit)
+    OC Windows 10.0.19045 (x64)
+  steps-to-reproduce: |
+    1. Зайти на главную страницу сайта.
+    2. Два раза перейти на следующую страницу.
+  expected-result: |
+    Все изображения подгружаются.
+  actual-result: |
+    Изображения либо не подгружаются, либо грузятся по несколько минут (assets/card-img-page3-bug.png)
+---
+- summary: |
+    При выборе категории, невозможно отменить выбранный фильтр.
+  environment: |
+    FireFox Development Edition 113.0b8 (64bit)
+    OC Windows 10.0.19045 (x64)
+  steps-to-reproduce: |
+    1. Зайти на главную страницу сайта.
+    2. В левой части сайта, в разделе "Category", выбрать любой фильтр.
+    3. Снова перейти в этот раздел.
+  expected-result: |
+    Есть кнопка отмены фильтра.
+  actual-result: |
+    Кнопка отмены фильтра отсутствует.
+---
+- summary: |
+    После оформления заказа, корзина не очищается.
+  environment: |
+    FireFox Development Edition 113.0b8 (64bit)
+    OC Windows 10.0.19045 (x64)
+  steps-to-reproduce: |
+    1. Зайти на главную страницу сайта.
+    2. Добавить любой товар в корзину.
+    3. Перейти в корзину.
+    4. Оформить заказ.
+  expected-result: |
+    Корзина очищена.
+  actual-result: |
+    Корзина не очищена, есть возможность заказать тот же товар снова.
