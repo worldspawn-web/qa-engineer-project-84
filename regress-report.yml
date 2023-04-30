@@ -48,7 +48,7 @@ bugreports:
       OC Windows 10.0.19045 (x64)
     steps-to-reproduce: |
       1. Перейти на главную страницу.
-      2. В разделе "Search", написать Universe
+      2. Вбить в поиск "Universe"
     expected-result: |
       Выводится одна полноценная карточка "Universe 9"
     actual-result: |
@@ -61,7 +61,7 @@ bugreports:
       OC Windows 10.0.19045 (x64)
     steps-to-reproduce: |
       1. Перейти на главную страницу.
-      2. В шапке сайта переключить язык на "Russian".
+      2. Переключить язык сайта на русский.
     expected-result: |
       Цена товаров на главной странице конвертировалась в рубли.
     actual-result: |
